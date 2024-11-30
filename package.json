@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "main.ts",
   "scripts": {
-    "d1": "npx ts-node day1/main.ts",
-    "d2": "npx ts-node day2/main.ts"
+    "d1": "npx ts-node src/day1/main.ts",
+    "d2": "npx ts-node src/day2/main.ts"
   },
   "keywords": [],
   "author": "",

@@ -4,7 +4,7 @@ import * as fs from "fs";
 import * as readline from "readline";
 
 // Pfad zur Datei
-const dateiPfad = "./day1/input.txt";
+const dateiPfad = "./src/day1/input.txt";
 
 function findFirstDigit(input: string): string | null {
   for (let i = 0; i < input.length; i++) {

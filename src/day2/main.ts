@@ -2,7 +2,7 @@ import { readFile } from "../helper";
 
 async function main() {
   // The Elf would first like to know which games would have been possible if the bag contained only 12 red cubes, 13 green cubes, and 14 blue cubes?
-  const path = "./day2/input.txt";
+  const path = "./src/day2/input.txt";
 
   const content = await readFile(path);
 

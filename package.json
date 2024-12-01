@@ -4,7 +4,8 @@
   "main": "main.ts",
   "scripts": {
     "d1": "npx ts-node src/day1/main.ts",
-    "d2": "npx ts-node src/day2/main.ts"
+    "d2": "npx ts-node src/day2/main.ts",
+    "24_01": "npx ts-node src/24_01/main.ts"
   },
   "keywords": [],
   "author": "",

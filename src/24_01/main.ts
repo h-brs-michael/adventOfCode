@@ -16,13 +16,29 @@ async function main() {
   const secondSorted = second.toSorted();
   console.log({ firstSorted, secondSorted });
 
-  const diff = firstSorted.map((first, index) => Math.abs(first - secondSorted[index]));
+  const diff = firstSorted.map((first, index) =>
+    Math.abs(first - secondSorted[index])
+  );
 
   console.log({ diff });
 
-  const sum = diff.reduce((accumulator, current) => accumulator + current , 0);
+  const sum = diff.reduce((accumulator, current) => accumulator + current, 0);
 
-  console.log({sum});
+  console.log({ sum });
+
+  //part 2:
+
+  const score = first.map((first) => {
+    const count = second.filter((second) => first === second).length;
+    return first * count;
+  });
+  console.log({ score });
+
+  const sumScore = score.reduce(
+    (accumulator, current) => accumulator + current,
+    0
+  );
+  console.log({ sumScore });
 }
 
 main();

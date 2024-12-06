@@ -46,7 +46,7 @@ async function main() {
   console.log(numbers);
   const sum2 = numbers.reduce((accumulator, current) => accumulator + current, 0);
   console.info({ sum2 });
-
+  // 76911921
 }
 
 function multF(multStr: string) {

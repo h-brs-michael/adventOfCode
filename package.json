@@ -7,7 +7,9 @@
     "d2": "npx ts-node src/day2/main.ts",
     "24_01": "npx ts-node src/24_01/main.ts",
     "24_02": "npx ts-node src/24_02/main.ts",
-    "24_03": "npx ts-node src/24_03/main.ts"
+    "24_03": "npx ts-node src/24_03/main.ts",
+    "24_04": "npx ts-node src/24_04/main.ts",
+    "24_05": "npx ts-node src/24_05/main.ts"
   },
   "keywords": [],
   "author": "",

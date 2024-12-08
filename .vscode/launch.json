@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch open file",
+        "skipFiles": ["<node_internals>/**"],
+        "program": "${file}",
+        "preLaunchTask": "tsc: build - tsconfig.json",
+        "outFiles": ["${workspaceFolder}/dist/**/*.js"]
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "lunch 24_06",
+        "program": "${workspaceFolder}/dist/24_06/main.js",
+        "preLaunchTask": "tsc: build - tsconfig.json",
+        "outFiles": ["${workspaceFolder}/dist/**/*.js"]
+      }
+    ]
+  }

@@ -40,8 +40,6 @@ function findStepCount(grid: string[][]) {
       case 'UP':
         if (r - 1 > 0) {
           if (grid[r - 1][c] === '#') {
-            // turn right
-            // return false;
             direction = 'RIGHT';
             return isNextFieldFree(position);
           } else {
@@ -51,11 +49,8 @@ function findStepCount(grid: string[][]) {
         }
         return false;
       case 'DOWN':
-        // return r + 1 < rows;
         if (r + 1 < rows) {
           if (grid[r + 1][c] === '#') {
-            // turn right
-            // return false;
             direction = 'LEFT';
             return isNextFieldFree(position);
           } else {
@@ -65,11 +60,8 @@ function findStepCount(grid: string[][]) {
         }
         return false;
       case 'LEFT':
-        // return c - 1 > 0;
         if (c - 1 > 0) {
           if (grid[r][c - 1] === '#') {
-            // turn right
-            // return false;
             direction = 'UP';
             return isNextFieldFree(position);
           } else {
@@ -79,11 +71,8 @@ function findStepCount(grid: string[][]) {
         }
         return false;
       case 'RIGHT':
-        // return c + 1 < rows;
         if (c + 1 < cols) {
           if (grid[r][c + 1] === '#') {
-            // turn right
-            // return false;
             direction = 'DOWN';
             return isNextFieldFree(position);
           } else {

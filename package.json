@@ -10,7 +10,8 @@
     "24_03": "npx ts-node src/24_03/main.ts",
     "24_04": "npx ts-node src/24_04/main.ts",
     "24_05": "npx ts-node src/24_05/main.ts",
-    "24_06": "npx ts-node src/24_06/main.ts"
+    "24_06": "npx ts-node src/24_06/main.ts",
+    "24_07": "npx ts-node src/24_07/main.ts"
   },
   "keywords": [],
   "author": "",
